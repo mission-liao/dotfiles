@@ -10,3 +10,6 @@
 [submodule ".vim/pack/vendor/start/vim-color-solarized"]
 	path = .vim/pack/vendor/start/vim-color-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/pack/vendor/start/completor"]
+	path = .vim/pack/vendor/start/completor
+	url = https://github.com/maralla/completor.vim.git
