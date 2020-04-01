@@ -13,3 +13,6 @@
 [submodule ".vim/pack/vendor/start/completor"]
 	path = .vim/pack/vendor/start/completor
 	url = https://github.com/maralla/completor.vim.git
+[submodule ".vim/pack/vendor/start/vim-hashtags"]
+	path = .vim/pack/vendor/start/vim-hashtags
+	url = git@github.com:mission-liao/hashtags.git
