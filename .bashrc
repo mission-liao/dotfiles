@@ -1,1 +1,1 @@
-export PATH="/usr/local/opt:$HOME/.cargo/bin:$PATH";
+export PATH="/usr/local/opt:$HOME/.cargo/bin:$HOME/.composer/vendor/bin:$PATH";

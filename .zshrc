@@ -1,4 +1,4 @@
-export PATH="/usr/local/opt:$HOME/.cargo/bin:/Users/mssnl/projs/go/bin:/usr/local/opt/ruby/bin:/usr/local/bin:$PATH"
+export PATH="/usr/local/opt:$HOME/.cargo/bin:$HOME/.composer/vendor/bin:/Users/mssnl/projs/go/bin:/usr/local/opt/ruby/bin:/usr/local/bin:$PATH"
 export GOPATH="/Users/mssnl/projs/go"
 
 # workaround for some warnings
