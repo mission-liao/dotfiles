@@ -125,5 +125,6 @@ let g:completor_racer_binary = $HOME."/.cargo/bin/racer"
 " => Hashtags 
 " =============================================================
 map <leader>ss :SaveNote<cr>
+map <leader>uu :UpdateNote<cr>
 
 
