@@ -16,3 +16,6 @@
 [submodule ".vim/pack/vendor/start/vim-hashtags"]
 	path = .vim/pack/vendor/start/vim-hashtags
 	url = git@github.com:mission-liao/hashtags.git
+[submodule ".vim/pack/vendor/start/vim-go"]
+	path = .vim/pack/vendor/start/vim-go
+	url = https://github.com/fatih/vim-go
