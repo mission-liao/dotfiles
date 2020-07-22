@@ -7,3 +7,7 @@ export LC_ALL=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
