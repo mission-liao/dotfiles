@@ -58,6 +58,8 @@ set foldcolumn=1
 set wrap
 " Make backspace works for most cases
 set backspace=indent,eol,start
+" Hight column 80
+set colorcolumn=80
 
 " Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'
@@ -126,5 +128,7 @@ let g:completor_racer_binary = $HOME."/.cargo/bin/racer"
 " =============================================================
 map <leader>ss :SaveNote<cr>
 map <leader>uu :UpdateNote<cr>
-
-
+" =============================================================
+" => vim-go
+" =============================================================
+let g:go_fmt_command = "goimports"
