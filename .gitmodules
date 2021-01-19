@@ -19,3 +19,9 @@
 [submodule ".vim/pack/vendor/start/vim-go"]
 	path = .vim/pack/vendor/start/vim-go
 	url = https://github.com/fatih/vim-go
+[submodule "ack.vim"]
+	path = ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule ".vim/pack/vendor/start/vim-ack"]
+	path = .vim/pack/vendor/start/vim-ack
+	url = https://github.com/mileszs/ack.vim
