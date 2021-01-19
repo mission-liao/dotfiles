@@ -133,3 +133,17 @@ map <leader>uu :UpdateNote<cr>
 " => vim-go
 " =============================================================
 let g:go_fmt_command = "goimports"
+let g:go_implements_mode = 'gopls'
+let g:go_referrers_mode = 'gopls'
+map gr :GoReferrers<cr>
+" =============================================================
+" => vim-ack
+" =============================================================
+cnoreabbrev Ack Ack!
+nnoremap <Leader>a :Ack!<Space>
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep --nogroup --column'
+endif
+
+let g:ackhighlight = 1
