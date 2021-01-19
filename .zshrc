@@ -12,3 +12,9 @@ export LC_CTYPE=en_US.UTF-8
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+if type "brew" > /dev/null; then
+  export CLOUDSDK_PYTHON="$(brew --prefix)/opt/python@3.8/libexec/bin/python"
+  source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+  source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+fi
